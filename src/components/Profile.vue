@@ -9,7 +9,7 @@
                     <div class="text-lg opacity-75">Hello, I'm</div>
                     <div class="xl:font-semibold text-[3rem] ">Saifullah Akhtar</div>
                     <div class="font-medium opacity-75">Full Stack Developer</div>
-                    <div class="flex gap-4 text-sm font-bold">
+                    <div class="max-sm:flex-col flex gap-4 text-sm font-bold">
                         <button
                             class="transition-colors duration-200 px-6 py-4 border rounded-full dark:hover:bg-white hover:bg-black dark:hover:text-black hover:text-white  ">Download
                             CV</button>
