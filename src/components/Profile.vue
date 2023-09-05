@@ -14,7 +14,7 @@
                             class="transition-colors duration-200 px-6 py-4 border rounded-full dark:hover:bg-white hover:bg-black dark:hover:text-black hover:text-white  ">Download
                             CV</button>
                         <button
-                            class="transition-colors duration-200 px-6 py-4 border rounded-full bg-white text-stone-800 dark:bg-white dark:text-stone-800 dark:hover:bg-stone-800 hover:bg-white dark:hover:text-white hover:text-stone-800 ">Contact
+                            class="transition-colors duration-200 px-6 py-4 border rounded-full bg-stone-800 text-white dark:bg-white dark:text-stone-800 dark:hover:bg-stone-800 hover:bg-white dark:hover:text-white hover:text-stone-800 ">Contact
                             Info</button>
                     </div>
                     <div class="flex gap-4 text-sm font-bold">
