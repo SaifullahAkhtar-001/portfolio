@@ -1,6 +1,6 @@
 <template>
     <Section>
-        <div class="flex max-xl:flex-col justify-center items-center gap-14 h-vh-80 max-md:h-fit">
+        <div class="flex max-xl:flex-col justify-center items-center gap-14 h-vh-80">
             <div class="w-[400px] max-md:w-[300px]">
                 <img src="../assets/profile-pic.png" alt="">
             </div>
