@@ -7,6 +7,7 @@ module.exports = {
         'vh-17' : '17vh',
         'vh-96' : '96vh',
         'vh-26' : '26vh',
+        'vh-80' : '80vh',
       },
       padding: {
         'vh-4' : '4vh'

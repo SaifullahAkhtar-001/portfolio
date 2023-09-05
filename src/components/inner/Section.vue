@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-vh-4 h-vh-96 mx-40">
+  <div class="pt-vh-4 h-vh-96 mx-40 box-border min-h-auto">
     <slot></slot>
   </div>
 </template>
