@@ -8,6 +8,7 @@ module.exports = {
         'vh-96' : '96vh',
         'vh-26' : '26vh',
         'vh-80' : '80vh',
+        'vh-40' : '40vh',
       },
       padding: {
         'vh-4' : '4vh'

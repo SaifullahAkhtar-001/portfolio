@@ -1,6 +1,6 @@
 <template>
-  <div class="flex gap-10">
-            <Link url ="#about" class="relative">About</Link>
+  <div class="xl:flex gap-10">
+            <Link url ="#about">About</Link>
             <Link url ="#experience">Experience</Link>
             <Link url ="#project">Projects</Link>
             <Link url ="#contact">Contact</Link>

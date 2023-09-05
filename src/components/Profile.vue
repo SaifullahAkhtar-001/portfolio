@@ -1,7 +1,7 @@
 <template>
     <Section>
         <div class="xl:flex justify-center items-center gap-14 h-vh-80">
-            <div class="w-[400px] max-xl:m-auto max-xl:mb-24">
+            <div class="w-[400px] max-xl:m-auto max-xl:mb-24 max-xl:h-fit">
                 <img src="../assets/profile-pic.png" alt="">
             </div>
             <div>

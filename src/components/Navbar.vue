@@ -3,7 +3,7 @@
         <div class="text-3xl">
             Saifullah Akhtar
         </div>
-        <navbarLinks />
+        <navbarLinks class="max-xl:hidden"/>
     </div>
     
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="text-xl dark:bg-stone-800 m-0 dark:text-white min-h-screen">
+  <div class="text-xl dark:bg-stone-800 m-0 dark:text-white min-h-screen min-w-full">
       <Navbar />
       <Profile id="profile"/>
       <Footer />

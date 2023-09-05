@@ -1,8 +1,5 @@
 <template>
-  <div>
-    <!-- <a :href="url" class="hover:opacity-70 transition-all duration-200">
-      <slot></slot>
-    </a> -->
+  <div class="max-xl:pb-4 max-xl:h-fit">
     <a :href="url" class="relative group transition duration-300">
       <slot></slot>
       <span
