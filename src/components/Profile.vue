@@ -1,13 +1,13 @@
 <template>
     <Section>
-        <div class="xl:flex justify-center items-center gap-14 h-vh-80">
-            <div class="w-[400px] max-xl:m-auto max-xl:mb-24 max-xl:h-fit">
+        <div class="flex max-xl:flex-col justify-center items-center gap-14 h-vh-80">
+            <div class="w-[400px]">
                 <img src="../assets/profile-pic.png" alt="">
             </div>
             <div>
                 <div class="flex flex-col items-center gap-y-6">
                     <div class="text-lg opacity-75">Hello, I'm</div>
-                    <div class="font-semibold text-[3rem] ">Saifullah Akhtar</div>
+                    <div class="xl:font-semibold text-[3rem] ">Saifullah Akhtar</div>
                     <div class="font-medium opacity-75">Full Stack Developer</div>
                     <div class="flex gap-4 text-sm font-bold">
                         <button
