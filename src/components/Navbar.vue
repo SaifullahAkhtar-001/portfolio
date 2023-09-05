@@ -6,11 +6,11 @@
         <navbarLinks class="max-xl:hidden" />
         <div class="hamburger-menu xl:hidden">
             <div class="hamburger-icon" @click="toggleMenu">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="dark:bg-white bg-stone-600"></span>
+                <span class="dark:bg-white bg-stone-600"></span>
+                <span class="dark:bg-white bg-stone-600"></span>
             </div>
-            <div class="menu-links">
+            <div class="menu-links dark:bg-stone-800 bg-gray-600">
                 <li><a href="#about" @click="toggleMenu">About</a></li>
                 <li><a href="#experience" @click="toggleMenu">Experience</a></li>
                 <li><a href="#projects" @click="toggleMenu">Projects</a></li>
@@ -61,7 +61,7 @@ export default {
 .hamburger-icon span {
     width: 100%;
     height: 2px;
-    background-color: white;
+    /* background-color: white; */
     transition: all 0.3 ease-in-out;
 }
 
@@ -72,7 +72,7 @@ export default {
     border: 2px;
     border-color: antiquewhite;
     border-radius: 24px;
-    background-color: rgb(36, 35, 35);
+    /* background-color: rgb(36, 35, 35); */
     width: fit-content;
     max-height: 0;
     overflow: hidden;
