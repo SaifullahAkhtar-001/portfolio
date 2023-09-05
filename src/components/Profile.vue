@@ -1,14 +1,14 @@
 <template>
     <Section>
         <div class="flex max-xl:flex-col justify-center items-center gap-14 h-vh-80">
-            <div class="w-[400px]">
+            <div class="w-[400px] max-xl:w-[300px]">
                 <img src="../assets/profile-pic.png" alt="">
             </div>
             <div>
                 <div class="flex flex-col items-center gap-y-6">
                     <div class="text-lg opacity-75">Hello, I'm</div>
-                    <div class="xl:font-semibold text-[3rem] ">Saifullah Akhtar</div>
-                    <div class="font-medium opacity-75">Full Stack Developer</div>
+                    <div class="xl:font-semibold font-medium text-2xl xl:text-[3rem] ">Saifullah Akhtar</div>
+                    <div class="xl:font-medium opacity-75">Full Stack Developer</div>
                     <div class="max-sm:flex-col flex gap-4 text-sm font-bold">
                         <button
                             class="transition-colors duration-200 px-6 py-4 border rounded-full dark:hover:bg-white hover:bg-black dark:hover:text-black hover:text-white  ">Download
