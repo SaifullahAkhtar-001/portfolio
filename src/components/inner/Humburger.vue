@@ -92,6 +92,7 @@ export default {
 }
 
 .menu-bg {
+    position: fixed;
     z-index: 1;
     width: 0;
     height: 0;
