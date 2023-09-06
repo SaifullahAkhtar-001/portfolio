@@ -7,9 +7,9 @@
       <div class="wave" id="wave4"></div>
     </div>
     <div class="flex text-2xl h-vh-17 items-center">
-      <NavbarLinks />
+      <NavbarLinks class="text-white"/>
     </div>
-    <div class="pb-6 text-[10px] font-extralight text-gray-300">
+    <div class="pb-6 text-sm max-md:text-[10px] font-extralight text-gray-300">
       <p>Copyright &#169; 2023 Saifullah Akhtar. All Rights Reserved.</p>
     </div>
 
