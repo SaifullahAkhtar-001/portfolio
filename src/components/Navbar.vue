@@ -4,9 +4,7 @@
             Saifullah Akhtar
         </div>
         <NavbarLinks class="max-xl:hidden" />
-        <div class="relative">
-            <Humburger/>
-        </div>
+        <Humburger />
     </div>
 </template>
 
@@ -16,10 +14,9 @@ import Humburger from './inner/Humburger.vue'
 export default {
     name: 'Navbar',
     components: {
-        NavbarLinks,Humburger
+        NavbarLinks, Humburger
     }
 }
 </script>
 
-<style>
-</style>
+<style></style>

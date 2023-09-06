@@ -1,9 +1,9 @@
 <template>
     <div id="menu" class="xl:hidden">
         <div id="menu-bar" @click="menuOnClick">
-            <div id="bar1" class="bar"></div>
-            <div id="bar2" class="bar"></div>
-            <div id="bar3" class="bar"></div>
+            <div id="bar1" class="bar dark:bg-white bg-stone-900"></div>
+            <div id="bar2" class="bar dark:bg-white bg-stone-900"></div>
+            <div id="bar3" class="bar dark:bg-white bg-stone-900"></div>
         </div>
         <nav class="nav" id="nav">
             <ul>
@@ -39,14 +39,14 @@ export default {
 #menu-bar {
     width: 45px;
     height: 40px;
-    margin: 30px 0 20px 20px;
+    margin: 75px 60px 20px 20px;
     cursor: pointer;
 }
 
 .bar {
     height: 5px;
     width: 100%;
-    background-color: #DC052D;
+    /* background-color: #3586ff; */
     display: block;
     border-radius: 5px;
     transition: 0.3s ease;
@@ -97,7 +97,7 @@ export default {
     width: 0;
     height: 0;
     margin: 30px 0 20px 20px;
-    background: radial-gradient(circle, #DC052D, #DC052D);
+    background: radial-gradient(circle, #3586ff, #3586ff);
     border-radius: 50%;
     transition: 0.3s ease;
 }
