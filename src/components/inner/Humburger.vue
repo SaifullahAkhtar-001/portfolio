@@ -39,7 +39,7 @@ export default {
 #menu-bar {
     width: 45px;
     height: 40px;
-    margin: 75px 8px 20px 20px;
+    margin: 50px 8px 20px 20px;
     cursor: pointer;
 }
 
