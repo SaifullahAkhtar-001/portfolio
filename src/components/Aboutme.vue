@@ -1,6 +1,6 @@
 <template>
     <Section>
-        <div class="max-md:h-[30vh]">
+        <div class="h-[16vh]">
             <div class="text-center font-extralight text-base opacity-75 mb-3">Get to know more</div>
             <div class="font-medium text-5xl text-center">About Me</div>
         </div>
