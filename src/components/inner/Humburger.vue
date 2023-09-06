@@ -1,113 +1,129 @@
 <template>
-    <div class="hamburger-menu">
-        <div class="hamburger-icon" @click="toggleMenu">
-            <span class="dark:bg-white bg-stone-600"></span>
-            <span class="dark:bg-white bg-stone-600"></span>
-            <span class="dark:bg-white bg-stone-600"></span>
+    <div id="menu" class="xl:hidden">
+        <div id="menu-bar" @click="menuOnClick">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
         </div>
-        <div class="menu-links dark:bg-stone-600 bg-gray-600">
-            <li><a href="#about" @click="toggleMenu">About</a></li>
-            <li><a href="#experience" @click="toggleMenu">Experience</a></li>
-            <li><a href="#projects" @click="toggleMenu">Projects</a></li>
-            <li><a href="#contact" @click="toggleMenu">Contact</a></li>
-        </div>
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
     </div>
+
+    <div class="menu-bg" id="menu-bg"></div>
 </template>
 
 <script>
 export default {
     name: 'Humburger',
     methods: {
-            toggleMenu() {
-                const menu = document.querySelector(".menu-links");
-                const icon = document.querySelector(".hamburger-icon");
-                menu.classList.toggle("open");
-                icon.classList.toggle("open");
-            }
+        menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
         }
+    }
 }
 </script>
 
 <style>
-#hamburger-nav {
-    display: none;
+#menu {
+    z-index: 2;
 }
 
-.hamburger-menu {
-    border-radius: 20px;
-    position: relative;
-    display: inline-block;
-}
-
-.hamburger-icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 24px;
-    width: 30px;
+#menu-bar {
+    width: 45px;
+    height: 40px;
+    margin: 30px 0 20px 20px;
     cursor: pointer;
 }
 
-.hamburger-icon span {
+.bar {
+    height: 5px;
     width: 100%;
-    height: 2px;
-    /* background-color: white; */
-    transition: all 0.3 ease-in-out;
-}
-
-.menu-links {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    border: 2px;
-    border-color: antiquewhite;
-    border-radius: 24px;
-    /* background-color: rgb(36, 35, 35); */
-    width: fit-content;
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.3 ease-in-out;
-}
-
-.menu-links a {
+    background-color: #DC052D;
     display: block;
-    padding: 10px;
-    text-align: center;
-    font-size: 1.5rem;
-    color: white;
-    text-decoration: none;
-    transition: all 0.3 ease-in-out;
+    border-radius: 5px;
+    transition: 0.3s ease;
 }
 
-.menu-links li {
+#bar1 {
+    transform: translateY(-4px);
+}
+
+#bar3 {
+    transform: translateY(4px);
+}
+
+.nav {
+    transition: 0.3s ease;
+    display: none;
+}
+
+.nav ul {
+    padding: 0 22px;
+}
+
+.nav li {
     list-style: none;
+    padding: 12px 0;
 }
 
-.menu-links.open {
-    max-height: 300px;
+.nav li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
 }
 
-.hamburger-icon.open span:first-child {
-    transform: rotate(45deg) translate(10px, 5px);
+.nav li a:hover {
+    font-weight: bold;
 }
 
-.hamburger-icon.open span:nth-child(2) {
+.menu-bg,
+#menu {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, #DC052D, #DC052D);
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.change {
+    display: block;
+}
+
+.change .bar {
+    background-color: white;
+}
+
+.change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
     opacity: 0;
 }
 
-.hamburger-icon.open span:last-child {
-    transform: rotate(-45deg) translate(10px, -5px);
+.change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
 }
 
-.hamburger-icon span:first-child {
-    transform: none;
-}
-
-.hamburger-icon span:first-child {
-    opacity: 1;
-}
-
-.hamburger-icon span:first-child {
-    transform: none;
+.change-bg {
+    width: 520px;
+    height: 460px;
+    transform: translate(50%, -25%);
 }
 </style>

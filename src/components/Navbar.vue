@@ -4,7 +4,9 @@
             Saifullah Akhtar
         </div>
         <NavbarLinks class="max-xl:hidden" />
-        <Humburger class="xl:hidden"/>
+        <div class="relative">
+            <Humburger/>
+        </div>
     </div>
 </template>
 
