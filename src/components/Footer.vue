@@ -9,7 +9,7 @@
     <div class="flex text-2xl h-vh-17 items-center">
       <NavbarLinks />
     </div>
-    <div class="pb-9 text-sm text-gray-300">
+    <div class="pb-6 text-sm text-gray-300">
       <p>Copyright &#169; 2023 Saifullah Akhtar. All Rights Reserved.</p>
     </div>
 
