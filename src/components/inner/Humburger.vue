@@ -7,10 +7,10 @@
         </div>
         <nav class="nav" id="nav">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="#about" @click="menuOnClick">About</a></li>
+            <li><a href="#experience" @click="menuOnClick">Experience</a></li>
+            <li><a href="#projects" @click="menuOnClick">Projects</a></li>
+            <li><a href="#contact" @click="menuOnClick">Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -125,6 +125,6 @@ export default {
 .change-bg {
     width: 520px;
     height: 460px;
-    transform: translate(50%, -25%);
+    transform: translate(50%, -18%);
 }
 </style>
