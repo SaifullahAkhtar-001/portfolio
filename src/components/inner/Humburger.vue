@@ -37,14 +37,14 @@ export default {
 }
 
 #menu-bar {
-    width: 45px;
-    height: 40px;
+    width: 32px;
+    height: 35px;
     margin: 58px 20px 20px 20px;
     cursor: pointer;
 }
 
 .bar {
-    height: 5px;
+    height: 3px;
     width: 100%;
     /* background-color: #3586ff; */
     display: block;
