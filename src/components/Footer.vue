@@ -1,5 +1,5 @@
 <template>
-  <div class="max-xl:h-vh-40 relative bg-[#3586ff] h-vh-26 flex flex-col justify-center items-center gap-8 mt-[100px] max-md:mt-[500px]">
+  <div class="max-xl:h-vh-40 relative bg-[#3586ff] h-vh-26 flex flex-col justify-center items-center gap-8 mt-[100px] max-md:mt-[600px]">
     <div class="waves">
       <div class="wave" id="wave1"></div>
       <div class="wave" id="wave2"></div>
@@ -9,7 +9,7 @@
     <div class="flex text-2xl h-vh-17 items-center">
       <NavbarLinks />
     </div>
-    <div class="pb-6 text-sm font-extralight text-gray-300">
+    <div class="pb-6 text-[10px] font-extralight text-gray-300">
       <p>Copyright &#169; 2023 Saifullah Akhtar. All Rights Reserved.</p>
     </div>
 
