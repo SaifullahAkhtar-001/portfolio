@@ -7,7 +7,7 @@
             <div>
                 <div class="flex flex-col items-center gap-y-6 whitespace-nowrap">
                     <div class="text-lg opacity-75">Hello, I'm</div>
-                    <div class="xl:font-semibold font-medium text-2xl xl:text-[3rem] ">Saifullah Akhtar</div>
+                    <div class="font-medium text-2xl xl:text-[3rem] ">Saifullah Akhtar</div>
                     <div class="xl:font-medium opacity-75">Full Stack Developer</div>
                     <div class="max-sm:flex-col flex gap-4 text-sm font-bold">
                         <button
