@@ -3,8 +3,8 @@
         <div class="text-center font-extralight text-base opacity-75 mb-3">Get to know more</div>
         <div class="font-medium text-5xl text-center">About  Me</div>
         <div class="flex max-xl:flex-col justify-center items-center h-[80vh] gap-10">
-            <div class="flex-shrink-0">
-                <img src="../assets/about-pic.png" alt="" class="max-xl:w-[300px] w-[400px] rounded-[2rem]">
+            <div class="flex-shrink-0 w-[400px] max-md:w-[300px]">
+                <img src="../assets/about-pic.png" alt="" class="rounded-[2rem]">
             </div>
             <div class="flex-auto">
                 <div class="flex max-[785px]:flex-col gap-6">
