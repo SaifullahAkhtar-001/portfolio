@@ -1,5 +1,5 @@
 <template>
-  <div class="max-xl:h-vh-40 relative bg-[#3586ff] h-vh-26 flex flex-col justify-center items-center gap-8 mt-[100px] max-md:mt-[500px]">
+  <div class="max-xl:h-vh-40 relative bg-[#3586ff] h-vh-26 flex flex-col justify-center items-center gap-8 mt-[100px] max-md:mt-[200px]">
     <div class="waves">
       <div class="wave" id="wave1"></div>
       <div class="wave" id="wave2"></div>
