@@ -1,17 +1,16 @@
 <template>
   <div class="text-xl dark:bg-[#121212] m-0 dark:text-white min-h-screen min-w-full">
-    <div class="bg-[url('../assets/banner-bg.png')] bg-no-repeat bg-cover">
+    <div class="dark:bg-[url('../assets/banner-bg.png')] dark:bg-no-repeat dark:bg-cover">
       <Navbar id="home" />
       <Profile id="profile" />
-    </div>
-    <div class="bg-[url('../assets/color-sharp.png')] bg-no-repeat bg-cover">
-      <Aboutme id="about" />
-    </div>
-    <Experience />
-    <Footer />
-    <homebtn />
   </div>
-</template>
+  <div class="dark:bg-[url('../assets/color-sharp.png')] dark:bg-no-repeat dark:bg-cover">
+    <Aboutme id="about" />
+  </div>
+  <Experience />
+  <Footer />
+  <homebtn />
+</div></template>
 
 <script>
 import Navbar from './components/Navbar.vue'

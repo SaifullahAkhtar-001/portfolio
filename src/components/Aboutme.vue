@@ -4,7 +4,7 @@
             <div class="text-center font-extralight text-base opacity-75 mb-3">Get to know more</div>
             <div class="font-medium text-5xl text-center">About Me</div>
         </div>
-        <div class="flex max-xl:flex-col justify-center items-center max-md:h-fit h-[75vh] gap-10">
+        <div class="flex max-xl:flex-col justify-center items-center max-md:h-fit h-[80vh] gap-10">
             <div class="flex-shrink-0 w-[400px] max-md:w-[350px]">
                 <img src="../assets/about-pic.png" alt="" class="rounded-[2rem]">
             </div>

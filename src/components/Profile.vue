@@ -26,7 +26,7 @@
             </button>
           </div>
           <div class="flex gap-4 text-sm font-bold">
-            <a>
+            <a href="https://github.com/SaifullahAkhtar-001" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-8 cursor-pointer dark:fill-white dark:hover:fill-stone-600 hover:opacity-70"
@@ -38,7 +38,7 @@
                 />
               </svg>
             </a>
-            <a href="">
+            <a href="http://linkedin.com/in/saifullah-akhtar-0ba508233" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-8 cursor-pointer dark:fill-white dark:hover:fill-stone-600 hover:opacity-70"
