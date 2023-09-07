@@ -4,8 +4,8 @@
       <Navbar id="home" />
       <Profile id="profile" />
     </div>
-    <div class="bg-[url('../assets/color-sharp.png')] bg-no-repeat bg-cover rotate-180">
-      <Aboutme id="about" class="rotate-180"/>
+    <div class="bg-[url('../assets/color-sharp.png')] bg-no-repeat bg-cover">
+      <Aboutme id="about" />
     </div>
     <Experience />
     <Footer />
