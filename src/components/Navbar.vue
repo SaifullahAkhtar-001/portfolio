@@ -1,6 +1,6 @@
 <template>
     <div class="h-vh-17 flex max-xl:ml-8 max-xl:justify-center xl:justify-around items-center text-2xl">
-        <Humburger class="xl:hidden"/>
+        <Humburger class="md:hidden"/>
         <div class="text-3xl">
             Saifullah Akhtar
         </div>
