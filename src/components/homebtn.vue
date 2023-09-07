@@ -1,6 +1,6 @@
 <template>
     <a href="#home"
-        class="transition-all max-xl:duration-1000 duration-100 flex justify-center items-center bg-opacity-90 rounded-full fixed bottom-8 right-4 h-10 w-10 cursor-pointer border-2 border-stone-400 active:border-2 xl:hover:border-2  active:border-green-500 xl:hover:border-green-500">
+        class="z-[2000] transition-all max-xl:duration-1000 duration-100 flex justify-center items-center bg-opacity-90 rounded-full fixed bottom-8 right-4 h-10 w-10 cursor-pointer border-2 border-stone-400 active:border-2 xl:hover:border-2  active:border-green-500 xl:hover:border-green-500">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 dark:fill-white fill-stone-400"
             viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
             <path
