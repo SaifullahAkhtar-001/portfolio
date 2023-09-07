@@ -3,8 +3,8 @@
         <div class="text-3xl">
             Saifullah Akhtar
         </div>
-        <NavbarLinks class="max-xl:hidden" />
-        <Humburger />
+        <NavbarLinks class="max-xl:hidden relative" />
+        <Humburger class="xl:hidden"/>
     </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="max-xl:h-vh-40 relative bg-[#3586ff] h-vh-26 flex flex-col justify-center items-center gap-8 mt-[100px] max-md:mt-[600px]">
+  <div class="max-xl:h-vh-40 relative bg-[#5c30b1] h-vh-26 flex flex-col justify-center items-center gap-8 mt-[100px] max-md:mt-[600px]">
     <div class="waves">
       <div class="wave" id="wave1"></div>
       <div class="wave" id="wave2"></div>
@@ -33,7 +33,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100px;
-  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background: url("../assets/svg.png");
   background-size: 1000px 100px;
 }
 

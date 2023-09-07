@@ -1,5 +1,5 @@
 <template>
-    <div id="menu" class="xl:hidden">
+    <div id="menu">
         <div id="menu-bar" @click="menuOnClick">
             <div id="bar1" class="bar dark:bg-white bg-stone-900"></div>
             <div id="bar2" class="bar dark:bg-white bg-stone-900"></div>
@@ -14,8 +14,6 @@
             </ul>
         </nav>
     </div>
-
-    <div class="menu-bg" id="menu-bg"></div>
 </template>
 
 <script>
@@ -25,7 +23,6 @@ export default {
         menuOnClick() {
             document.getElementById("menu-bar").classList.toggle("change");
             document.getElementById("nav").classList.toggle("change");
-            document.getElementById("menu-bg").classList.toggle("change-bg");
         }
     }
 }
@@ -84,21 +81,10 @@ export default {
     font-weight: bold;
 }
 
-.menu-bg,
 #menu {
     top: 0;
     right: 0;
     position: absolute;
-}
-
-.menu-bg {
-    z-index: 1;
-    width: 0;
-    height: 0;
-    margin: 30px 0 20px 20px;
-    background: radial-gradient(circle, #3586ff, #3586ff);
-    border-radius: 50%;
-    transition: 0.3s ease;
 }
 
 .change {
@@ -121,9 +107,4 @@ export default {
     transform: translateY(-6px) rotateZ(45deg);
 }
 
-.change-bg {
-    width: 520px;
-    height: 460px;
-    transform: translate(50%, -18%);
-}
 </style>
