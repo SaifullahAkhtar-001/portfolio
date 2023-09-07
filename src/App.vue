@@ -1,20 +1,21 @@
 <template>
-  <div class="text-xl dark:bg-stone-800 m-0 dark:text-white min-h-screen min-w-full">
-      <Headwrapper>
-        <Navbar id="home"/>
-        <Profile id="profile" />
-      </Headwrapper>
-      <Aboutme id="about" />
-      <Experience />
-      <Footer />
-      <homebtn/>
+  <div class="text-xl dark:bg-[#121212] m-0 dark:text-white min-h-screen min-w-full">
+    <div class="bg-[url('../assets/banner-bg.png')] bg-no-repeat bg-cover">
+      <Navbar id="home" />
+      <Profile id="profile" />
+    </div>
+    <div class="bg-[url('../assets/color-sharp.png')] bg-no-repeat bg-cover rotate-180">
+      <Aboutme id="about" class="rotate-180"/>
+    </div>
+    <Experience />
+    <Footer />
+    <homebtn />
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
-import Headwrapper from './components/inner/Headwrapper.vue'
 import Profile from './components/Profile.vue'
 import Aboutme from './components/Aboutme.vue'
 import homebtn from './components/homebtn.vue'
@@ -23,13 +24,13 @@ import Experience from './components/Experience.vue'
 export default {
   name: 'App',
   components: {
-    Navbar, Footer,Profile,Aboutme,homebtn,Experience,Headwrapper
+    Navbar, Footer, Profile, Aboutme, homebtn, Experience,
   },
 }
 </script>
 
 <style>
-html{
+html {
   scroll-behavior: smooth;
 }
 
