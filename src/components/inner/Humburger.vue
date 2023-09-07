@@ -8,9 +8,9 @@
         <nav class="nav" id="nav">
             <ul>
                 <li><a href="#about" @click="menuOnClick">About</a></li>
-            <li><a href="#experience" @click="menuOnClick">Experience</a></li>
-            <li><a href="#projects" @click="menuOnClick">Projects</a></li>
-            <li><a href="#contact" @click="menuOnClick">Contact</a></li>
+                <li><a href="#experience" @click="menuOnClick">Experience</a></li>
+                <li><a href="#projects" @click="menuOnClick">Projects</a></li>
+                <li><a href="#contact" @click="menuOnClick">Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -92,7 +92,6 @@ export default {
 }
 
 .menu-bg {
-    position: fixed;
     z-index: 1;
     width: 0;
     height: 0;
