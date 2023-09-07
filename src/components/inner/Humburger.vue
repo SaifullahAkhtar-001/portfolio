@@ -6,7 +6,7 @@
             <div id="bar3" class="bar dark:bg-white bg-stone-900"></div>
         </div>
         <nav class="nav" id="nav">
-            <ul class="bg-[#5c30b1] mr-4 rounded-[2rem]">
+            <ul class="bg-[#5c30b1] mr-4 rounded-[2rem] cast-shadow">
                 <li><a href="#about" @click="menuOnClick">About</a></li>
                 <li><a href="#experience" @click="menuOnClick">Experience</a></li>
                 <li><a href="#projects" @click="menuOnClick">Projects</a></li>
@@ -29,6 +29,7 @@ export default {
 </script>
 
 <style>
+
 #menu {
     z-index: 2;
 }
@@ -39,7 +40,9 @@ export default {
     margin: 58px 20px 20px 20px;
     cursor: pointer;
 }
-
+.cast-shadow{
+    box-shadow: 0 10px 20px rgba(92, 48, 177, 0.7);
+}
 .bar {
     height: 3px;
     width: 100%;
