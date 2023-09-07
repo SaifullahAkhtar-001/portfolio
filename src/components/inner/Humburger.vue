@@ -6,7 +6,7 @@
             <div id="bar3" class="bar dark:bg-white bg-stone-900"></div>
         </div>
         <nav class="nav" id="nav">
-            <ul>
+            <ul class="bg-[#5c30b1] mr-4 rounded-[2rem]">
                 <li><a href="#about" @click="menuOnClick">About</a></li>
                 <li><a href="#experience" @click="menuOnClick">Experience</a></li>
                 <li><a href="#projects" @click="menuOnClick">Projects</a></li>
@@ -96,7 +96,7 @@ export default {
 }
 
 .change #bar1 {
-    transform: translateY(4px) rotateZ(-45deg);
+    transform: translateY(2px) rotateZ(-51deg);
 }
 
 .change #bar2 {
@@ -104,7 +104,7 @@ export default {
 }
 
 .change #bar3 {
-    transform: translateY(-6px) rotateZ(45deg);
+    transform: translateY(-4px) rotateZ(45deg);
 }
 
 </style>
