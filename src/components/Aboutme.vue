@@ -1,10 +1,7 @@
 <template>
     <Section>
         <div class="flex flex-col justify-center gap-10 items-center h-[80vh] max-xl:h-fit">
-            <div class="h-[16vh]">
-                <div class="text-center font-extralight text-base opacity-75 mb-3">Get to know more</div>
-                <div class="font-medium text-5xl text-center">About Me</div>
-            </div>
+            <Sectionheader heading="About Me" subheading="Get To Know More"/>
             <div class="flex max-xl:flex-col justify-center items-center max-md:h-fit  gap-10">
                 <div class="flex-shrink-0 w-[400px] max-md:w-[350px] max-sm:w-[300px]">
                     <img src="../assets/about-pic.png" alt="" class="rounded-[2rem]">
@@ -44,10 +41,11 @@
 <script>
 import Section from './inner/Section.vue'
 import aboutmecards from './inner/aboutmecards.vue'
+import Sectionheader from './inner/Sectionheader.vue'
 export default {
     name: 'Aboutme',
     components: {
-        Section, aboutmecards,
+        Section, aboutmecards,Sectionheader,
     }
 }
 </script>

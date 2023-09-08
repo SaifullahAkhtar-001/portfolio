@@ -10,6 +10,9 @@
     <div class="dark:bg-[url('../assets/color-sharp2.png')] dark:bg-no-repeat dark:bg-cover">
       <Experience />
     </div>
+    <div class="dark:bg-[url('../assets/color-sharp.png')] dark:bg-no-repeat dark:bg-cover">
+      <Projects />
+    </div>
     <Footer />
     <homebtn />
   </div>
@@ -22,11 +25,12 @@ import Profile from './components/Profile.vue'
 import Aboutme from './components/Aboutme.vue'
 import homebtn from './components/homebtn.vue'
 import Experience from './components/Experience.vue'
+import Projects from './components/Projects.vue'
 
 export default {
   name: 'App',
   components: {
-    Navbar, Footer, Profile, Aboutme, homebtn, Experience,
+    Navbar, Footer, Profile, Aboutme, homebtn, Experience,Projects
   },
 }
 </script>
