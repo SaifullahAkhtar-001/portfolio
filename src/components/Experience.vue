@@ -1,6 +1,6 @@
 <template>
     <Section>
-        <div class="h-[16vh] max-xl:h-[80vh]">
+        <div class="h-[16vh] max-md:h-[70vh]">
             <div class="text-center font-extralight text-base opacity-75 mb-3">Explore</div>
             <div class="font-medium text-5xl text-center">My Experience</div>
         </div>
