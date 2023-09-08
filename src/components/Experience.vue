@@ -1,12 +1,12 @@
 <template>
     <Section>
-        <div class="h-[16vh] max-xl:h-[40vh]">
+        <div class="h-[16vh] max-xl:h-[80vh]">
             <div class="text-center font-extralight text-base opacity-75 mb-3">Explore</div>
             <div class="font-medium text-5xl text-center">My Experience</div>
         </div>
         <div class="flex max-md:flex-col justify-center items-center h-[70vh] gap-6">
             <div class="flex-1 flex flex-col items-center justify-center p-6 border-[1px] gap-10 border-solid text-center border-opacity-50 border-stone-400 rounded-[2rem]">
-                <div>FrontEnd Development</div>
+                <div class="font-medium text-2xl opacity-75">FrontEnd Development</div>
                 <div class="flex flex-row flex-wrap gap-10 items-center justify-around ">
                     <Experiencedetails title="React" experience="Intermediate"/>
                     <Experiencedetails title="Vue JS" experience="Experienced"/>
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="flex-1 flex flex-col items-center justify-center p-6 border-[1px] gap-10 border-solid text-center border-opacity-50 border-stone-400 rounded-[2rem]">
-                <div>BackEnd Development</div>
+                <div class="font-medium opacity-75">BackEnd Development</div>
                 <div class="flex flex-row flex-wrap gap-10 items-center justify-around ">
                     <Experiencedetails title="Laravel" experience="Experienced"/>
                     <Experiencedetails title="MySQL" experience="Intermediate"/>
