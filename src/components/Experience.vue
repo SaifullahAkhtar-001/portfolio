@@ -4,13 +4,29 @@
             <div class="text-center font-extralight text-base opacity-75 mb-3">Explore</div>
             <div class="font-medium text-5xl text-center">My Experience</div>
         </div>
-        <div class="flex max-xl:flex-col justify-center items-center h-[80vh] gap-10">
-            <div class="flex-1 flex flex-col items-center justify-center gap-2 p-6 border-[1px] border-solid text-center border-opacity-50 h-fit border-stone-400 rounded-[2rem]">
-                <Experiencedetails />
+        <div class="flex max-md:flex-col justify-center items-center h-[70vh] gap-6">
+            <div class="flex-1 flex flex-col items-center justify-center p-6 border-[1px] gap-10 border-solid text-center border-opacity-50 border-stone-400 rounded-[2rem]">
+                <div>FrontEnd Development</div>
+                <div class="flex flex-row flex-wrap gap-10 items-center justify-around ">
+                    <Experiencedetails title="React" experience="Intermediate"/>
+                    <Experiencedetails title="Vue JS" experience="Experienced"/>
+                    <Experiencedetails title="HTML" experience="Experienced"/>
+                    <Experiencedetails title="Tailwind" experience="Experienced"/>
+                    <Experiencedetails title="Bootstrap" experience="Experienced"/>
+                    <Experiencedetails title="JavaScript" experience="Experienced"/>
+                </div>
             </div>
-            <div class="flex-1 flex flex-col items-center justify-center gap-2 p-6 border-[1px] border-solid text-center border-opacity-50 border-stone-400 rounded-[2rem]">
-                <Experiencedetails />
+            <div class="flex-1 flex flex-col items-center justify-center p-6 border-[1px] gap-10 border-solid text-center border-opacity-50 border-stone-400 rounded-[2rem]">
+                <div>BackEnd Development</div>
+                <div class="flex flex-row flex-wrap gap-10 items-center justify-around ">
+                    <Experiencedetails title="Laravel" experience="Experienced"/>
+                    <Experiencedetails title="MySQL" experience="Intermediate"/>
+                    <Experiencedetails title="PostgresSQL" experience="Intermidate"/>
+                    <Experiencedetails title="PHP" experience="Experienced"/>
+                    <Experiencedetails title="Git" experience="Experienced"/>
+                </div>
             </div>
+            
         </div>
     </Section>
 </template>
