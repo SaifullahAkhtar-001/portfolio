@@ -1,6 +1,6 @@
 <template>
     <Section>
-        <div class="flex flex-col justify-center gap-20 items-center h-[80vh] max-xl:h-fit">
+        <div class="flex flex-col justify-center gap-10 items-center h-[80vh] max-xl:h-fit">
             <div class="h-[16vh]">
                 <div class="text-center font-extralight text-base opacity-75 mb-3">Explore</div>
                 <div class="font-medium text-5xl text-center">My Experience</div>
