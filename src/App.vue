@@ -4,12 +4,10 @@
       <Navbar id="home" />
       <Profile id="profile" />
     </div>
-    <div class="dark:bg-[url('../assets/color-sharp.png')] dark:bg-no-repeat dark:bg-cover rotate-180">
-      <div class="dark:bg-[url('../assets/color-sharp2.png')] dark:bg-no-repeat dark:bg-cover rotate-180">
-        <Aboutme id="about" />
-      </div>
-    </div>
     <div class="dark:bg-[url('../assets/color-sharp.png')] dark:bg-no-repeat dark:bg-cover">
+        <Aboutme id="about" />
+    </div>
+    <div class="dark:bg-[url('../assets/color-sharp2.png')] dark:bg-no-repeat dark:bg-cover">
       <Experience />
     </div>
     <Footer />
