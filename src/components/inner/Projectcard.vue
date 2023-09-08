@@ -1,7 +1,7 @@
 <template>
     <div
         class="flex flex-col items-center justify-center gap-4 p-6 border-[1px] border-solid border-stone-600 rounded-[2rem] shadow-2xl">
-        <div class="w-[90%] max-w-[400px]">
+        <div class="w-[90%]">
             <img src="../../assets/project-1.png" alt="" class="rounded-[1.5rem]">
         </div>
         <div class="font-semibold">

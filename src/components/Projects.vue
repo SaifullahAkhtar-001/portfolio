@@ -2,7 +2,7 @@
   <Section>
     <div class="flex flex-col justify-center gap-10 items-center h-[80vh] max-xl:h-fit">
       <Sectionheader heading="Projects" subheading="Browse My Recent" />
-      <div class="flex gap-6 flex-wrap items-center justify-center">
+      <div class="flex flex-row gap-6 items-center justify-center">
         <Projectcard/>
         <Projectcard/>
         <Projectcard/>        
