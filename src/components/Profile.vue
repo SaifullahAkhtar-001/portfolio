@@ -4,7 +4,7 @@
       class="flex max-xl:flex-col justify-center items-center gap-8 h-vh-80"
     >
     
-      <div class="w-[500px] max-md:w-[350px] max-sm:w-[300px] floating-element">
+      <div class="w-[500px] max-md:w-[350px] floating-element">
         <img src="../assets/header-img.svg" alt="" />
       </div>
       <div>

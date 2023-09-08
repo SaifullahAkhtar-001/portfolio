@@ -5,7 +5,7 @@
             <div class="font-medium text-5xl text-center">About Me</div>
         </div>
         <div class="flex max-xl:flex-col justify-center items-center max-md:h-fit h-[80vh] gap-10">
-            <div class="flex-shrink-0 w-[400px] max-md:w-[350px]">
+            <div class="flex-shrink-0 w-[400px] max-md:w-[350px] max-sm:w-[300px]">
                 <img src="../assets/about-pic.png" alt="" class="rounded-[2rem]">
             </div>
             <div class="flex-auto">
