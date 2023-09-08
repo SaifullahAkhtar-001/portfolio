@@ -8,10 +8,10 @@
         <Aboutme id="about" />
     </div>
     <div class="dark:bg-[url('../assets/color-sharp2.png')] dark:bg-no-repeat dark:bg-cover">
-      <Experience />
+      <Experience id="experience"/>
     </div>
     <div class="dark:bg-[url('../assets/color-sharp.png')] dark:bg-no-repeat dark:bg-cover">
-      <Projects />
+      <Projects id="project"/>
     </div>
     <Footer />
     <homebtn />
