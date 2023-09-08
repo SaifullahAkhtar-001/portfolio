@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-vh-4 max-xl:pt-[8vh] max-xl:h-vh-100 h-vh-96 mx-40 max-xl:mx-6 box-border min-h-auto">
+  <div class="pt-vh-4 max-xl:pt-[8vh] max-md:h-fit h-[100vh] mx-40 max-xl:mx-6 box-border min-h-auto">
     <slot></slot>
   </div>
 </template>

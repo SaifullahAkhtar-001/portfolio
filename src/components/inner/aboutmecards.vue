@@ -1,6 +1,6 @@
 <template>
     <div
-        class="flex-1 flex flex-col items-center justify-center gap-2 p-7 xl:px-16 border-[1px] border-solid text-center border-opacity-50 border-stone-400 rounded-[2rem]">
+        class="flex-1 flex flex-col items-center justify-center gap-2 p-7  border-[1px] border-solid text-center border-opacity-50 border-stone-400 rounded-[2rem]">
         <slot></slot>
         <p class="xl:font-medium text-2xl">{{ title }}</p>
         <p class="text-[1rem] font-light">{{ duration }}</p>
