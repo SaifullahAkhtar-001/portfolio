@@ -9,8 +9,8 @@
         <Aboutme id="about" />
       </div>
     </div>
-    <div class="dark:bg-[url('../assets/color-sharp.png')] dark:bg-no-repeat dark:bg-cover">
-      <Experience />
+    <div class="dark:bg-[url('../assets/color-sharp.png')] dark:bg-no-repeat dark:bg-cover rotate-180">
+      <Experience class="rotate-180"/>
     </div>
     <Footer />
     <homebtn />
