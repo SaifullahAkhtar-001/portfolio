@@ -15,16 +15,16 @@
           </div>
           <div class="xl:font-medium opacity-75">Full Stack Developer</div>
           <div class="max-sm:flex-col flex gap-4 text-sm font-bold">
-            <button
+            <a href="https://drive.google.com/uc?export=download&id=1FkJxd5bwsGnAHGTHke0EPOa-EiAsMZfn"
               class="transition-colors duration-200 px-6 py-4 border rounded-full dark:hover:bg-white hover:bg-black dark:hover:text-black hover:text-white"
             >
               Download CV
-            </button>
-            <button
+            </a>
+            <a href="#contact"
               class="transition-colors duration-200 px-6 py-4 border rounded-full bg-stone-800 text-white dark:bg-white dark:text-stone-800 dark:hover:bg-stone-800 hover:bg-white dark:hover:text-white hover:text-stone-800"
             >
               Contact Info
-            </button>
+            </a>
           </div>
           <div class="flex gap-4 text-sm font-bold">
             <a href="https://github.com/SaifullahAkhtar-001" target="_blank">

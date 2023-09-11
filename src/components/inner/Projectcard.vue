@@ -9,12 +9,12 @@
             
             <div class="max-sm:flex-col flex gap-4 text-sm font-bold">
                 <router @click="navigateToLive"
-                    class="transition-colors duration-200 px-6 py-4 border rounded-full dark:hover:bg-white hover:bg-black dark:hover:text-black hover:text-white"
+                    class="transition-colors duration-200 px-8 py-4 border rounded-full dark:hover:bg-white hover:bg-black dark:hover:text-black hover:text-white"
                     target="_blank">
                     Live
                 </router>
                 <button @click="navigateToRepo"
-                    class="transition-colors duration-200 px-6 py-4 border rounded-full bg-stone-800 text-white dark:bg-white dark:text-stone-800 dark:hover:bg-stone-800 hover:bg-white dark:hover:text-white hover:text-stone-800"
+                    class="transition-colors duration-200 px-8 py-4 border rounded-full bg-stone-800 text-white dark:bg-white dark:text-stone-800 dark:hover:bg-stone-800 hover:bg-white dark:hover:text-white hover:text-stone-800"
                     target="_blank">
                     Repo
                 </button>

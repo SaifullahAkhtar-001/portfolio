@@ -13,6 +13,9 @@
     <div class="dark:bg-[url('../assets/color-sharp.png')] dark:bg-no-repeat dark:bg-cover">
       <Projects id="project"/>
     </div>
+    <div class="dark:bg-[url('../assets/color-sharp.png')] dark:bg-no-repeat dark:bg-cover rotate-180">
+      <Contact id="contact" class="rotate-180"/>
+    </div>
     <Footer />
     <homebtn />
   </div>
@@ -26,11 +29,11 @@ import Aboutme from './components/Aboutme.vue'
 import homebtn from './components/homebtn.vue'
 import Experience from './components/Experience.vue'
 import Projects from './components/Projects.vue'
-
+import Contact from './components/Contact.vue'
 export default {
   name: 'App',
   components: {
-    Navbar, Footer, Profile, Aboutme, homebtn, Experience,Projects
+    Navbar, Footer, Profile, Aboutme, homebtn, Experience,Projects,Contact 
   },
 }
 </script>
