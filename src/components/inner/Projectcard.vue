@@ -24,15 +24,9 @@
 </template>
 
 <script>
-import { IMAGE1, IMAGE2, IMAGE3 } from '@/config/urls';
 export default {
 
     name: 'Projectcard',
-    data() {
-        return{
-            img1: IMAGE2,
-        }
-    },
     props: [
         'url', 'projName', 'live', 'repo'
     ],
