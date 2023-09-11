@@ -3,7 +3,7 @@
         <div class="flex flex-col justify-center gap-10 items-center h-[80vh] max-xl:h-fit">
             <Sectionheader heading="Contant Me" subheading="Get In Touch" />
             <div>
-                <div class="flex flex-around max-xl:gap-8 gap-24 py-6 px-6 max-md:px-5  border-[1px] rounded-[2rem] border-stone-600 text-medium">
+                <div class="flex flex-around max-xl:gap-9 gap-24 py-6 px-6 max-md:px-5  border-[1px] rounded-[2rem] border-stone-600 text-medium">
                     <div class="flex gap-4 justify-center items-center">
                         <svg class="mt-1 h-7 cursor-pointer dark:fill-white dark:hover:fill-stone-600 hover:opacity-70"
                             version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
