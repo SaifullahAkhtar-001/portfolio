@@ -1,6 +1,6 @@
 <template>
     <div
-        class="flex flex-col items-center justify-center gap-4 p-6 border-[1px] border-solid border-stone-400 rounded-[2rem] shadow-2xl">
+        class="flex flex-col items-center justify-center gap-4 p-6 border-[1px] border-stone-400 rounded-[2rem] shadow-2xl">
         <slot/>
         <div class="font-medium">
             {{ projName }}
